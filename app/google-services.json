@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "183278835015",
+    "firebase_url": "https://tranznexsdriver-39a88.firebaseio.com",
+    "project_id": "tranznexsdriver-39a88",
+    "storage_bucket": "tranznexsdriver-39a88.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:183278835015:android:af2154656494533e51e862",
+        "android_client_info": {
+          "package_name": "com.webnexs.tranznexsdriver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "183278835015-j5iabf9ucv1857vb2dfoat84cvt4ld6d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.webnexs.tranznexsdriver",
+            "certificate_hash": "114be947480057c315eaff1eb5dbf3d4432531b0"
+          }
+        },
+        {
+          "client_id": "183278835015-eqd04e83qjk3mca41vefdp0gp69lvj7o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANspTshSkPO8-gXzPeh5iLyi7Yc2whc5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "183278835015-eqd04e83qjk3mca41vefdp0gp69lvj7o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

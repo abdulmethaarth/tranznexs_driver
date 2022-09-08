@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:id="@+id/activity_payments"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/activityBack"
+	android:orientation="vertical"
+	tools:context="com.webnexs.tranznexsdriver.activity.PastTripsActivity">
+
+	<include layout="@layout/toolbar"/>
+
+	<TextView
+		android:id="@+id/noRecords"
+		android:visibility="gone"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:text="No records found"
+		android:gravity="center"
+		android:textColor="@color/black"
+		android:textStyle="bold"/>
+
+	<FrameLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<android.support.v7.widget.RecyclerView
+			android:id="@+id/recycle_all_trip"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:scrollbars="none"
+			app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+			/>
+
+		<View
+			android:layout_width="match_parent"
+			android:layout_height="4dp"
+			android:background="@drawable/toolbar_dropshadow"/>
+
+	</FrameLayout>
+</LinearLayout>

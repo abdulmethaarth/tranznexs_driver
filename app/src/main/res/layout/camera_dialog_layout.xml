@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#85000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_30"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/top_radius_white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_10">
+
+            <TextView
+                android:id="@+id/layout_open_camera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:padding="@dimen/margin_10"
+                android:layout_weight="1"
+                android:text="Camera"
+                android:paddingBottom="@dimen/height_20"
+                android:gravity="center"
+                android:drawableBottom="@drawable/ic_camera"
+                android:layout_centerInParent="true"
+                android:textColor="#111"/>
+
+            <TextView
+                android:id="@+id/layout_open_gallery"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18dp"
+                android:layout_weight="1"
+                android:paddingBottom="@dimen/height_20"
+                android:gravity="center"
+                android:padding="@dimen/margin_10"
+                android:drawableBottom="@drawable/ic_gallery"
+                android:text="Gallery"
+                android:layout_centerInParent="true"
+                android:textColor="#111"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_open_cancel"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="@dimen/margin_10"
+            android:layout_marginLeft="@dimen/height_20"
+            style="@style/ButtonColor"
+            android:layout_marginRight="@dimen/height_20"
+            android:layout_height="40dp">
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="Cancel"
+                android:textColor="@color/white"
+                android:layout_centerInParent="true" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

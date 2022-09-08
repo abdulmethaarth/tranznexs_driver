@@ -1,0 +1,261 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activityBack"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="@dimen/margin_10"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/app_logo_black"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_15"/>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:id="@+id/txt_for_pass_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_logo"
+                android:layout_marginBottom="@dimen/margin_10"
+                android:text="Bank Details"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="@dimen/height_25"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/dark_gray">
+
+                <EditText
+                    android:id="@+id/bank_name"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:textSize="@dimen/height_17"
+                    android:layout_width="match_parent"
+                    style="@style/EditTextColor"
+                    android:layout_height="@dimen/height_40"
+                    android:hint="Bank Name"
+                    android:inputType="textVisiblePassword"
+                    android:imeOptions="actionUnspecified"
+                    android:textColorHint="@color/dark_gray"
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/dark_gray"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_5"
+                android:textColorHint="@color/dark_gray">
+
+                <EditText
+                    android:id="@+id/holder_name"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:textSize="@dimen/height_17"
+                    android:layout_width="match_parent"
+                    style="@style/EditTextColor"
+                    android:layout_height="@dimen/height_40"
+                    android:hint="Account Holder Name"
+                    android:inputType="textVisiblePassword"
+                    android:imeOptions="actionUnspecified"
+                    android:textColorHint="@color/dark_gray"
+                    />
+            </android.support.design.widget.TextInputLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/dark_gray"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_5"
+                android:textColorHint="@color/dark_gray">
+
+                <EditText
+                    android:id="@+id/acc_no"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:textSize="@dimen/height_17"
+                    android:layout_width="match_parent"
+                    style="@style/EditTextColor"
+                    android:layout_height="@dimen/height_40"
+                    android:hint="Account Number"
+                    android:inputType="textVisiblePassword"
+                    android:imeOptions="actionUnspecified"
+                    android:textColorHint="@color/dark_gray"
+                    />
+            </android.support.design.widget.TextInputLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/dark_gray"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_5"
+                android:textColorHint="@color/dark_gray">
+
+                <EditText
+                    android:id="@+id/ifsc_code"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:textSize="@dimen/height_17"
+                    android:layout_width="match_parent"
+                    style="@style/EditTextColor"
+                    android:layout_height="@dimen/height_40"
+                    android:hint="IFSC Code"
+                    android:inputType="textVisiblePassword"
+                    android:imeOptions="actionUnspecified"
+                    android:textColorHint="@color/dark_gray"
+                    />
+            </android.support.design.widget.TextInputLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/dark_gray"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_10"
+                android:layout_gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Passbook_image "
+                        android:textSize="@dimen/height_17"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Bank passbook_image "
+                        android:layout_marginTop="@dimen/margin_5"/>
+                </LinearLayout>
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/bnkpass_img"
+                    android:layout_width="@dimen/height_55"
+                    android:layout_height="@dimen/height_55"
+                    android:src="@drawable/driver_icon"
+                    app:civ_border_width="0.7dp"
+                    app:civ_border_color="#FF000000"
+                    />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/dark_gray"
+                android:layout_marginTop="@dimen/margin_10"
+                android:layout_marginBottom="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PAN card"
+                        android:textSize="@dimen/height_17"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pan card image"
+                        android:layout_marginTop="@dimen/margin_5"/>
+                </LinearLayout>
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/pan_img"
+                    android:layout_width="@dimen/height_55"
+                    android:layout_height="@dimen/height_55"
+                    android:src="@drawable/driver_icon"
+                    app:civ_border_width="0.7dp"
+                    app:civ_border_color="#FF000000"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/height_20"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_marginTop="@dimen/margin_10"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:text="@string/terms_policy"/>
+
+                <Button
+                    android:id="@+id/bank_dtls_nxt"
+                    style="@style/ButtonColor"
+                    android:layout_margin="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:text="SUBMIT"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

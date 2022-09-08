@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:chatview="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/activityBack"
+	android:orientation="vertical"
+	android:paddingTop="16dp">
+
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="10dp"
+		android:gravity="center_vertical"
+		android:paddingLeft="16dp"
+		android:paddingRight="16dp">
+
+		<View
+			android:layout_width="7dp"
+			android:layout_height="7dp"
+			android:layout_marginRight="10dp"
+			android:background="@drawable/pickup_circle" />
+
+		<TextView
+			android:id="@+id/pickupLocation"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_vertical"
+			android:text="Location"
+			android:textColor="@color/textPrimary" />
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="center_vertical"
+		android:paddingLeft="16dp"
+		android:paddingRight="16dp">
+
+		<View
+			android:layout_width="7dp"
+			android:layout_height="7dp"
+			android:layout_marginRight="10dp"
+			android:background="@drawable/drop_circle" />
+
+		<TextView
+			android:id="@+id/dropLocation"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_vertical"
+			android:text="Location"
+			android:textColor="@color/textPrimary" />
+	</LinearLayout>
+
+	<TextView
+		android:layout_marginTop="10dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:text="Please negotiate the fare"
+		android:textColor="@color/colorAccent" />
+
+	<co.intentservice.chatui.ChatView
+		android:id="@+id/chatViewLayout"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		chatview:backgroundColor="@color/activityBack"
+		chatview:backgroundRcv="@color/activityBack"
+		chatview:bubbleBackgroundRcv="@color/colorPrimaryDark"
+		chatview:bubbleBackgroundSend="@color/activityBack"
+		chatview:bubbleElevation="elevated"
+		chatview:inputUseEditorAction="true" />
+</LinearLayout>

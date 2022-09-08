@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Tranznexs Driver</string>
+    <string name="title_activity_driver_home">Driver</string>
+    <string name="title_activity_user_home">Map</string>
+    <string name="app_title_upper">TRANZNEXS CABS</string>
+    <string name="app_title">Tranznexs Cabs</string>
+    <string name="one_time_password">O N E&#160;&#160;T I M E&#160;&#160;P A S S W O R D</string>
+    <string name="yes">Yes</string>
+    <string name="are_you_sure">Are you sure you want to exit?</string>
+    <string name="really_exit">Really Exit?</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+    <string name="edit_number">Would you like to change your number?</string>
+
+    <string name="login_with_email">Login With Mail</string>
+    <string name="terms_policy">By continuing, I confirm that i have read &amp; agree to the \n Terms &amp; conditions and Privacy policy</string>
+    <string name="login_with_mobile">Login With Mobile</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#EE4444</color>
+    <color name="red_dark">#b71c1c</color>
+    <color name="colorPrimary">#DD2C2C2A</color>
+    <color name="colorPrimaryDark">#090808</color>
+    <color name="colorAccent">#0E0D0D</color>
+    <color name="textPrimary">#212121</color>
+    <color name="textSecondary">#757575</color>
+    <color name="activityBack">#fff</color>
+    <color name="activityGrayBack">#EEEEEE</color>
+    <color name="textLightPrimary">#fff</color>
+    <color name="dividerColor">#BDBDBD</color>
+    <color name="btnNoPress">#202020</color>
+    <color name="btnPress">#706F6B</color>
+    <color name="colorAccentLight">#CB212121</color>
+    <color name="dark_gray">#606060</color>
+    <color name="white_transparent">#00ffffff</color>
+</resources>

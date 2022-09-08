@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#85000000">
+
+	<LinearLayout
+		android:background="@drawable/top_radius_white"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:layout_alignParentBottom="true">
+
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="@dimen/margin_60"
+			android:layout_gravity="center">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="18dp"
+				android:text="Cancel Trip ?"
+				android:layout_centerHorizontal="true"
+				android:layout_marginTop="20dp"
+				style="@style/TextAppearance.AppCompat.Large"
+				android:textAppearance="@style/TextAppearance.FontPath"
+				android:textColor="@color/black"/>
+
+			<View
+				android:layout_marginLeft="@dimen/height_20"
+				android:layout_marginRight="@dimen/height_20"
+				android:layout_width="match_parent"
+				android:layout_height="1dp"
+				android:layout_alignParentBottom="true"
+				android:background="@color/dividerColor"/>
+
+		</RelativeLayout>
+
+
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:orientation="vertical"
+			android:padding="@dimen/height_20"
+			android:id="@+id/bikeBaseType">
+			<TextView
+				android:id="@+id/yes_cancel"
+				android:background="@drawable/round_shap_background"
+				android:layout_width="match_parent"
+				android:layout_height="@dimen/height_40"
+				android:textColor="@color/white"
+				android:gravity="center"
+				android:layout_marginBottom="@dimen/margin_10"
+				android:textSize="20dp"
+				android:text="Yes, Cancel"/>
+
+
+			<TextView
+				android:id="@+id/no"
+				android:background="@drawable/btn_accent_circle_white_outlined"
+				android:layout_width="match_parent"
+				android:layout_height="@dimen/height_40"
+				android:textColor="@color/black"
+				android:gravity="center"
+				android:textSize="20dp"
+				android:text="@string/no"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+
+</RelativeLayout>

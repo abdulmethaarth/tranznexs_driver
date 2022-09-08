@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#85000000"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:background="@drawable/top_radius_white"
+		android:id="@+id/dialogBody"
+		android:layout_alignParentBottom="true"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="20dp">
+
+		<TextView
+			android:id="@+id/cancel_iconText"
+			style="@style/TextAppearance.AppCompat.Large"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:text="Cancel Trip"
+			android:textStyle="bold"
+			android:drawableRight="@drawable/cancel"
+			android:textAppearance="@style/TextAppearance.FontPath"
+			android:textColor="@color/textPrimary"/>
+
+		<View
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:layout_marginBottom="@dimen/activity_margin"
+			android:layout_marginTop="@dimen/activity_margin"
+			android:background="@color/dividerColor"/>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical"
+			android:layout_marginLeft="@dimen/height_20"
+			android:layout_marginRight="@dimen/height_20">
+
+		<TextView
+			android:id="@+id/rider_not_ther"
+			android:textSize="16sp"
+			android:layout_width="match_parent"
+			android:layout_height="@dimen/height_40"
+			android:gravity="center_vertical"
+			android:text="Rider isn't there."
+			android:layout_marginBottom="@dimen/margin_5"
+			android:paddingLeft="@dimen/margin_10"
+			android:textColor="@color/textPrimary"/>
+
+		<TextView
+			android:id="@+id/wrong_address"
+			android:textSize="16sp"
+			android:layout_width="match_parent"
+			android:layout_height="@dimen/height_40"
+			android:layout_marginBottom="@dimen/margin_5"
+			android:paddingLeft="@dimen/margin_10"
+			android:gravity="center_vertical"
+			android:text="Wrong address shown."
+			android:textColor="@color/textPrimary"/>
+
+
+		<TextView
+			android:id="@+id/rude_call"
+			android:textSize="16sp"
+			android:layout_width="match_parent"
+			android:layout_height="@dimen/height_40"
+			android:layout_marginBottom="@dimen/margin_5"
+			android:paddingLeft="@dimen/margin_10"
+			android:gravity="center_vertical"
+			android:text="Rider rude at the call."
+			android:textColor="@color/textPrimary"/>
+
+
+		<TextView
+			android:id="@+id/bad_location"
+			android:textSize="16sp"
+			android:layout_width="match_parent"
+			android:layout_height="@dimen/height_40"
+			android:layout_marginBottom="@dimen/margin_5"
+			android:paddingLeft="@dimen/margin_10"
+			android:gravity="center_vertical"
+			android:text="Bad Location."
+			android:textColor="@color/textPrimary"/>
+
+
+		<TextView
+			android:id="@+id/personal_issues"
+			android:textSize="16sp"
+			android:layout_width="match_parent"
+			android:layout_height="@dimen/height_40"
+			android:paddingLeft="@dimen/margin_10"
+			android:gravity="center_vertical"
+			android:text="Some personal issues."
+			android:layout_marginBottom="@dimen/margin_10"
+			android:textColor="@color/textPrimary"/>
+
+			<LinearLayout
+				android:id="@+id/edt_personal_issue_layout"
+				android:layout_width="match_parent"
+				android:orientation="vertical"
+				android:visibility="gone"
+				android:layout_height="wrap_content">
+
+			<EditText
+				android:id="@+id/edt_personal_issues"
+				android:paddingLeft="@dimen/margin_10"
+				android:layout_width="match_parent"
+				android:background="@drawable/round_corner"
+				android:layout_height="@dimen/height_40"
+				android:hint="What's your problem..?"
+				/>
+				<View
+					android:layout_width="match_parent"
+					android:layout_height="1dp"
+					android:layout_marginBottom="@dimen/activity_margin"
+					android:background="@color/dividerColor"/>
+			</LinearLayout>
+
+			<TextView
+				android:visibility="gone"
+				android:id="@+id/done"
+				android:textSize="16sp"
+				android:layout_width="match_parent"
+				android:layout_height="@dimen/height_40"
+				android:layout_marginBottom="@dimen/margin_5"
+				android:paddingLeft="@dimen/margin_10"
+				android:gravity="center"
+				android:text="Done"
+				android:background="@drawable/round_shap_background"
+				android:textColor="@color/white"/>
+		</LinearLayout>
+	</LinearLayout>
+
+</RelativeLayout>
